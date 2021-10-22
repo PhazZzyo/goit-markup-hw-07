@@ -25,20 +25,17 @@
 .social-footer {
   width: 206px;
   margin-right: 93px;
-}
-
-.social-footer .social-list__link {
-  background: rgba(255, 255, 255, 0.1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-footer .social-list__icon {
-  fill: var(--white);
-}
-
-.social-footer .social-list__link:hover,
-.social-footer .social-list__link:focus {
-  background: var(--blue);
+  & .social-list__link {
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    :focus {
+      background: var(--blue);
+    }
+  }
+  .social-list__icon {
+    fill: var(--white);
+  }
 }
 
 .footer-contacts__item {

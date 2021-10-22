@@ -9,10 +9,9 @@
 
 .services-list__item {
   position: relative;
-}
-
-.services-list__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .services-list__block {
@@ -25,8 +24,7 @@
   mix-blend-mode: normal;
   position: absolute;
   bottom: 0px;
-}
-
-.services-list__block .header3 {
-  color: var(--white);
+  .header3 {
+    color: var(--white);
+  }
 }
