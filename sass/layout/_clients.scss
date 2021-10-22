@@ -26,9 +26,7 @@
 }
 
 .clients-list__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
 }
 
 .clients-list__item:not(:last-child) {

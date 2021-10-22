@@ -8,11 +8,8 @@
   color: var(--dark_text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(700, 20px, 1.15);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .order-form__input {
@@ -32,10 +29,7 @@
   color: var(--grey);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 1.16, 0.01em);
 }
 
 .order-form__wrapper {
@@ -97,10 +91,7 @@
   justify-content: center;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71);
   padding-top: 20px;
   margin-bottom: 30px;
 }

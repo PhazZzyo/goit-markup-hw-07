@@ -30,22 +30,16 @@
   color: var(--dark_text);
   text-transform: none;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  @include font(500, 16px, 1.18);
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
 .team-position {
   color: var(--grey);
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
+  @include font(400, 16px, 1.18);
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
 

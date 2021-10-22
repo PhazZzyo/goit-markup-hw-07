@@ -55,10 +55,7 @@
   margin-top: 20px;
   margin-bottom: 9px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71);
 }
 
 .subscribe-mail {
@@ -85,10 +82,7 @@
   padding: 16px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+  @include font(400, 16px, 1.25);
   color: rgba(255, 255, 255, 0.6);
 }
 
