@@ -1,0 +1,32 @@
+.services {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.services-list {
+  display: flex;
+}
+
+.services-list__item {
+  position: relative;
+}
+
+.services-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.services-list__block {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: normal;
+  position: absolute;
+  bottom: 0px;
+}
+
+.services-list__block .header3 {
+  color: var(--white);
+}

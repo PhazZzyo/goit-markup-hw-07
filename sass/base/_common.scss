@@ -1,0 +1,31 @@
+.body {
+  color: var(--grey);
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list {
+  list-style: none;
+}
+
+.header2 {
+  color: var(--dark_text);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.header3 {
+  color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
